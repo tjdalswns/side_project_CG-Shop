@@ -1,0 +1,70 @@
+.keyboard-item {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.keyboard-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    border-color: #007bff;
+}
+
+.keyboard-img-wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyboard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.keyboard-item:hover .keyboard-img {
+    transform: scale(1.05);
+}
+
+.keyboard-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.keyboard-name {
+    margin: 0 0 10px 0;
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.keyboard-desc {
+    margin: 0 0 15px 0;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+    height: 40px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.keyboard-price {
+    font-size: 1.1rem;
+    color: #007bff;
+    font-weight: 700;
+}

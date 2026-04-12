@@ -1,0 +1,43 @@
+.buy-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+}
+
+.buy-content {
+    flex: 1;
+    padding: 60px 20px 120px 20px;
+    max-width: 800px; /* Center layout constraint */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.buy-page-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.checkout-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Common Section Box Styles shared among Buy components */
+.section-box {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+    border: 1px solid #f0f0f0;
+}
+
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #111;
+}

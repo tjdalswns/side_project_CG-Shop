@@ -1,0 +1,77 @@
+.point-usage-container {
+    padding: 30px;
+}
+
+.point-info {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.point-input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.point-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.point-input:focus {
+    border-color: #000;
+}
+
+.point-btn {
+    padding: 0 25px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.point-btn:hover {
+    background: #333;
+}
+
+.point-notice {
+    font-size: 0.9rem;
+    color: #888;
+    margin: 0;
+}
+
+.applied-point-info {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #f0f7ff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0066cc;
+    font-weight: 500;
+}
+
+.point-cancel-btn {
+    background: none;
+    border: 1px solid #0066cc;
+    color: #0066cc;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.point-cancel-btn:hover {
+    background: #0066cc;
+    color: white;
+}

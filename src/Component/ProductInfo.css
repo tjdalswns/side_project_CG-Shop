@@ -1,0 +1,40 @@
+.product-info-container {
+    padding: 30px;
+}
+
+.product-info-empty {
+    padding: 30px;
+    text-align: center;
+    color: #666;
+}
+
+.product-info-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.product-img-small {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    color: #333;
+}

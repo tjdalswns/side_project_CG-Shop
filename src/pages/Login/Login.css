@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.title-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.input-ID {
+    width: 25%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 0 478px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 7px 7px 0 0;
+    border: 1px solid #000000;
+}
+
+.input-password {
+    width: 25%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 0 478px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 7px 7px;
+    border: 1px solid #000000;
+}
+
+.button {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 5px 478px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    border: 0;
+}
+
+.button:hover {
+    background-color: #dedede;
+    color: rgb(0, 0, 0);
+}

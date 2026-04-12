@@ -1,0 +1,131 @@
+.qna-write-section {
+    width: 60%;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.qna-write-header h2 {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.qna-write-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.row-group {
+    flex-direction: row;
+    align-items: center;
+}
+
+.row-group label:first-child {
+    width: 100px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #333;
+}
+
+.qna-select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    width: 150px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.qna-password-input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    width: 250px;
+}
+
+.qna-input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+}
+
+.qna-textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    min-height: 300px;
+    resize: vertical;
+    outline: none;
+}
+
+.qna-input:focus, .qna-textarea:focus, .qna-select:focus, .qna-password-input:focus {
+    border-color: #333;
+}
+
+.qna-write-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btn-cancel, .btn-submit {
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-cancel {
+    background-color: #ddd;
+    color: #333;
+}
+
+.btn-cancel:hover {
+    background-color: #ccc;
+}
+
+.btn-submit {
+    background-color: #333;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #555;
+}

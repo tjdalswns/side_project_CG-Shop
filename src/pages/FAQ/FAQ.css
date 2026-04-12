@@ -1,0 +1,125 @@
+.faq-section {
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 50vh;
+}
+
+.faq-section-header h2 {
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+.faq-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.faq-category-select {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.faq-search {
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+}
+
+.faq-search input {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.faq-search button.btn-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.faq-search button.btn-search:hover {
+    background-color: #555;
+}
+
+.faq-list-container {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #eee;
+}
+
+.faq-item {
+    border-bottom: 1px solid #eee;
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.faq-question:hover {
+    background-color: #f9f9f9;
+}
+
+.faq-category {
+    color: #666;
+    font-weight: 600;
+    margin-right: 15px;
+    min-width: 80px;
+}
+
+.faq-q-text {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.faq-toggle-icon {
+    color: #999;
+    font-size: 14px;
+}
+
+.faq-answer {
+    padding: 20px 15px 20px 110px; /* Aligned with text considering category width */
+    background-color: #f5f5f5;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    border-top: 1px dashed #e0e0e0;
+}
+
+.faq-empty {
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+}

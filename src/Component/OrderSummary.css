@@ -1,0 +1,58 @@
+.order-summary-container {
+    padding: 30px;
+}
+
+.summary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.summary-item.blue-text {
+    color: #0066cc;
+}
+
+.summary-total {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.total-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-row > span:first-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.total-price-text {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.earned-points-row {
+    text-align: right;
+}
+
+.earned-points-text {
+    font-size: 0.85rem;
+    color: #888;
+    background: #f5f5f5;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
