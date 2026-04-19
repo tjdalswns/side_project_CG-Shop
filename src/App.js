@@ -22,9 +22,10 @@ import QnaWrite from './pages/Qna/QnaWrite';
 import FAQ from './pages/FAQ/FAQ';
 import Buy from './pages/Buy/Buy';
 import Cart from './pages/Cart/Cart';
+import Hot from './pages/Hot/Hot';
 
 function App() {
-  const categories = ["Monitor", "Keyboard", "Mouse", "Headphone"];
+  const categories = ["Monitor", "Keyboard", "Mouse", "Headphone", "Hot", "notice/list"];
 
   const [notices, setNotices] = useState([
     { id: 1, title: 'PC 주변 기기 판매 사이트 오픈 안내', content: '사이트가 정식 오픈되었습니다. 많은 이용 부탁드립니다.', date: '2023-10-01' },
@@ -119,6 +120,13 @@ function App() {
             Footer={Footer}
             categories={categories}
             notices={notices} />} />
+        <Route path='/notice/list' element={
+          <NoticeList
+            logo={logo}
+            Header={Header}
+            Footer={Footer}
+            categories={categories}
+            notices={notices} />} />
         <Route path='/qna' element={
           <Qna
             logo={logo}
@@ -133,13 +141,6 @@ function App() {
             Footer={Footer}
             categories={categories}
             addQna={addQna} />} />
-        <Route path='/notice/list' element={
-          <NoticeList
-            logo={logo}
-            Header={Header}
-            Footer={Footer}
-            categories={categories}
-            notices={notices} />} />
         <Route path='/faq' element={
           <FAQ
             logo={logo}
@@ -159,6 +160,13 @@ function App() {
             Header={Header}
             Footer={Footer}
             categories={categories} />} />
+        <Route path='/hot' element={
+          <Hot
+            logo={logo}
+            Header={Header}
+            Footer={Footer}
+            categories={categories}
+            data={mockData.hot} />} />
       </Routes>
     </BrowserRouter>
   );

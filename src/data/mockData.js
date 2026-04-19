@@ -26,6 +26,11 @@ export const mockData = {
         { id: 2, name: "Office Monitor M2", price: 200000, description: "27-inch IPS Monitor" },
         { id: 3, name: "Curved Monitor M3", price: 450000, description: "32-inch Curved 4K Monitor" }
     ],
+    hot: [
+        { id: 1, name: "Hot Product M1", price: 300000, description: "Best-selling product" },
+        { id: 2, name: "Hot Product M2", price: 200000, description: "Most-viewed product" },
+        { id: 3, name: "Hot Product M3", price: 450000, description: "Most-reviewed product" }
+    ],
     faq: [
         { id: 1, category: "배송", question: "배송은 얼마나 걸리나요?", answer: "일반적으로 결제 완료 후 1~3일 이내에 배송됩니다. 도서 산간 지역은 추가로 1~2일이 소요될 수 있습니다." },
         { id: 2, category: "교환/반품", question: "제품 하자로 인한 교환/반품은 어떻게 하나요?", answer: "제품 수령 후 7일 이내에 고객센터나 1:1 문의 게시판을 통해 접수해 주시면, 확인 후 신속하게 처리해 드립니다." },

@@ -1,0 +1,28 @@
+.hot-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-content {
+    flex: 1;
+    padding: 60px 20px 120px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hot-title {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+.hot-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
