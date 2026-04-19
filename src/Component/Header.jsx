@@ -10,8 +10,10 @@ const Header = ({ categories, logo }) => {
                 <div className="logo" onClick={() => navigate('/')}>
                     <img src={logo} alt="My PC Shop" />
                 </div>
-                <button className="login-btn" onClick={() => navigate('/login')}>Login</button>
-                <button className="cart-btn" onClick={() => navigate('/cart')}>Cart</button>
+                <div className="header-actions">
+                    <button className="login-btn" onClick={() => navigate('/login')}>Login</button>
+                    <button className="cart-btn" onClick={() => navigate('/cart')}>Cart</button>
+                </div>
             </div>
             <nav className="nav-menu">
                 <ul>
