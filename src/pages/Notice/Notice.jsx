@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Notice.css';
 import { useNavigate } from 'react-router-dom';
 
+
 const Notice = ({ notices }) => {
     const navigate = useNavigate();
     const [currentPage, setCurrentPage] = useState(1);

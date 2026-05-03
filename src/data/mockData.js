@@ -29,7 +29,24 @@ export const mockData = {
     hot: [
         { id: 1, name: "Hot Product M1", price: 300000, description: "Best-selling product" },
         { id: 2, name: "Hot Product M2", price: 200000, description: "Most-viewed product" },
-        { id: 3, name: "Hot Product M3", price: 450000, description: "Most-reviewed product" }
+        { id: 3, name: "Hot Product M3", price: 450000, description: "Most-reviewed product" },
+        { id: 4, name: "Hot Product M4", price: 450000, description: "Most-reviewed product" },
+        { id: 5, name: "Hot Product M5", price: 450000, description: "Most-reviewed product" },
+        { id: 6, name: "Hot Product M6", price: 450000, description: "Most-reviewed product" },
+        { id: 7, name: "Hot Product M7", price: 450000, description: "Most-reviewed product" },
+        { id: 8, name: "Hot Product M8", price: 450000, description: "Most-reviewed product" },
+        { id: 9, name: "Hot Product M9", price: 450000, description: "Most-reviewed product" },
+        { id: 10, name: "Hot Product M10", price: 450000, description: "Most-reviewed product" },
+        { id: 11, name: "Hot Product M11", price: 450000, description: "Most-reviewed product" },
+        { id: 12, name: "Hot Product M12", price: 450000, description: "Most-reviewed product" },
+        { id: 13, name: "Hot Product M13", price: 450000, description: "Most-reviewed product" },
+        { id: 14, name: "Hot Product M14", price: 450000, description: "Most-reviewed product" },
+        { id: 15, name: "Hot Product M15", price: 450000, description: "Most-reviewed product" },
+        { id: 16, name: "Hot Product M16", price: 450000, description: "Most-reviewed product" },
+        { id: 17, name: "Hot Product M17", price: 450000, description: "Most-reviewed product" },
+        { id: 18, name: "Hot Product M18", price: 450000, description: "Most-reviewed product" },
+        { id: 19, name: "Hot Product M19", price: 450000, description: "Most-reviewed product" },
+        { id: 20, name: "Hot Product M20", price: 450000, description: "Most-reviewed product" }
     ],
     faq: [
         { id: 1, category: "배송", question: "배송은 얼마나 걸리나요?", answer: "일반적으로 결제 완료 후 1~3일 이내에 배송됩니다. 도서 산간 지역은 추가로 1~2일이 소요될 수 있습니다." },

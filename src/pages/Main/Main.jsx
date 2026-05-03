@@ -13,7 +13,7 @@ const Main = ({ Header, Footer, categories, logo, sliderImages, notices }) => {
             <Header categories={categories} logo={logo} />
             <div className="content">
                 <MainSlider images={sliderImages} />
-                <Notice notices={notices} />
+                <Notice categories={categories} notices={notices} logo={logo} />
                 {/* <div className="button-group">
                     <button onClick={() => { navigate('/sub') }}>서브 페이지 이동하기</button>
                 </div> */}

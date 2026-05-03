@@ -6,7 +6,7 @@
 
 .hot-content {
     flex: 1;
-    padding: 60px 20px 120px 20px;
+    padding: 3rem 20px 3rem 20px;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
@@ -15,7 +15,7 @@
 .hot-title {
     font-size: 2.5rem;
     color: #1a1a1a;
-    margin-bottom: 40px;
+    margin-bottom: 0rem;
     font-weight: 800;
 }
 
@@ -25,4 +25,26 @@
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+}
+
+.hot-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+.hot-pagination button {
+    padding: 5px 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hot-pagination button.active {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
 }
